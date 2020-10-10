@@ -18,21 +18,25 @@ Developer Toolは、ブラウザに付いている機能です。
 2. 「Inspect」または「検証ツール」、「検証」をクリック
 3. Developer Toolが画面下か、右に出てくる
 
-![devtool](./images/devtool.gif)
+![devtool](https://storage.googleapis.com/zenn-user-upload/7d9bxcmvb0815zg9r140qciwu3ab)
 
-例のGifはChromeですが、Firefoxでもほぼ同様です。
+例の画像はGoogle Chrome Canaryですが、Firefoxでもほぼ同様です。
 
 右クリックができない場合は、画面右上設定ボタンから開けます。
 
-![devtool2](./images/devtool2.gif)
+![devtool2](https://storage.googleapis.com/zenn-user-upload/ya5ufchvwjl5a2ra5hs7lkt7r8m3)
 
 Developer Toolの配置は、レスポンシブデザインを学習するまでは、画面下に配置を固定しておきましょう。
 
-![dock_to_bottom](./images/dock_to_bottom.gif)
+![dock_to_bottom](https://storage.googleapis.com/zenn-user-upload/u476y1gm1icdj4r4cjv4d9jexzb6)
 
-理由は、Developer Toolが右にあると、Developer Toolの表示部分は端末画面位表示されているとみなされず、全画面で見たときに、右に大きなスペースができてしまう、コンテンツが崩れるなどの原因になるためです。
+理由は、Developer Toolが横に配置されていると、Developer Toolの表示部分は端末画面位表示されているとみなされず、全画面で見たときに、右に大きなスペースができてしまう、コンテンツが崩れるなどの原因になるためです。
 
-![devtool_demo](./images/devtool_demo.gif)
+- Developer Toolが下に配置の時のコンテンツ表示
+![bottom](https://storage.googleapis.com/zenn-user-upload/ryvnvayzpiva6cenwmyqy80t8bf7)
+
+- Developer Toolが右横に配置の時のコンテンツ表示
+![side](https://storage.googleapis.com/zenn-user-upload/oihv4b0ah7adddaz2lgpiq7409co)
 
 Developer Tool分の画面の範囲だけ、画面が狭まっていますね。
 

@@ -36,7 +36,7 @@ button:hover {
 }
 ```
 
-![hover_gif](./images/hover_gif.gif)
+@[codepen](https://codepen.io/marissamarissa/pen/PozqNMj)
 
 カーソルをブラウザで文字要素に合わせた時と、合わせなかった時とでは文字色が変化します。
 
