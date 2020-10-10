@@ -20,7 +20,7 @@ HTML要素には、「階層」というものがあり、親と呼ばれる要�
 
 この段落のようなスペースのことを、「インデント」と言います。
 
-[「Markup Series Lesson 0:  Visual Studio Codeを導入してみよう」]()の本にある、[「テキストエディタのインストール（Visual Studio Code）」]()の項目で、少し説明がありましたね。
+[「Markup Series Lesson 0:  Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)の本にある、[「インストールの仕方」](https://zenn.dev/arisa_dev/books/markup-lesson0/viewer/chapter2)の項目で、少し説明がありましたね。
 
 インデントは、Tabキーを使って打ち込むことができます。
 半角英数字のスペース2つ分でも、Tabキー1回分の代用ができますが、本書ではTabキーを使いましょう。

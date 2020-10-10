@@ -99,7 +99,7 @@ Macだと、初期設定されているブラウザがSafariのことが多い�
 Google Chrome Canaryは、デフォルトで開くブラウザとして、指定をすることはできません。
 :::
 
-[「Markup Series Lesson 0:  Visual Studio Codeを導入してみよう」]()の本にある、[「テキストエディタのインストール（Visual Studio Code）」]()の項目で作成したフォルダに、HTMLファイルを作成し、上記の方法を使ってHTMLファイルをブラウザで開いてみましょう。
+[「Markup Series Lesson 0:  Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)の本にある、[「インストールの仕方」](https://zenn.dev/arisa_dev/books/markup-lesson0/viewer/chapter2)の項目で作成したフォルダに、HTMLファイルを作成し、上記の方法を使ってHTMLファイルをブラウザで開いてみましょう。
 
 HTMLファイルに、特に何も記述をしていない場合は、真っ白な画面でブラウザが立ち上がり、URLを確認した時に、準備コースで作成したファイル名と、HTMLファイル名が以下のように表示されていれば成功です！
 
