@@ -1,7 +1,7 @@
 title: "マークアップ言語シリーズ: Lesson 1 HTMLの基本"
 summary: "これからプログラミング学習を始められる方に向けての、web開発、フロントエンド開発をするための、最も優しい基本をまとめました。HTMLをこれから新しく学習したい人に向けた教材です。"
 topics: ["markdown", "html", "frontend"] # トピック（5つまで）
-published: ftrue # falseだと下書き
+published: true # falseだと下書き
 price: 2000 # 有料の場合200〜5000
 chapters:
   - chapter0
