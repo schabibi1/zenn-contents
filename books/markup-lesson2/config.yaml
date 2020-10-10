@@ -1,0 +1,21 @@
+title: "Markup Series Lesson 2: CSSの基本"
+summary: "これからプログラミング学習を始められる方に向けての、web開発、フロントエンド開発をするための、最も優しい基本をまとめました。CSSをこれから新しく学習したい人に向けた教材です。"
+topics: ["markdown", "css", "frontend"]
+published: false
+price: 2000 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - chapter0
+  - chapter1
+  - chapter2
+  - chapter3
+  - chapter4
+  - chapter5
+  - chapter6
+  - chapter7
+  - chapter8
+  - chapter9
+  - chapter10
+  - chapter11
+  - chapter12
+  - chapter13
