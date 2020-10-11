@@ -1,5 +1,5 @@
 ---
-title: "Markup Series Lesson 2: CSSの基本へようこそ！"
+title: "マークアップ言語シリーズ: Lesson 2 CSSの基本へようこそ！"
 free: true
 ---
 
@@ -10,7 +10,7 @@ free: true
 この本は、Markup Seriesのシリーズ第2段です。
 チャプター1から7は、無料でお読みいただけます。
 
-Markup Series Lesson 3以降の本や、そのほかのシリーズの本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
+マークアップ言語シリーズ: Lesson 3以降の本や、そのほかのシリーズの本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
 
 # 本書の特徴
 
@@ -27,14 +27,14 @@ Markup Series Lesson 3以降の本や、そのほかのシリーズの本は、�
 - web開発、フロントエンド開発をこれから学習したい人
 - プログラミング学習を始めたいけど、どの言語から取り組めば良いか迷っている人
 - HTMLの学習をしたことのある方
-- [Markup Series Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本を読み終えた方
+- [マークアップ言語シリーズ: Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本を読み終えた方
 - CSSを学習したい人
 
 # 本書を読むために必要な環境
 
 - テキストエディタの導入（Visual Studio Code推奨）
 
-Visual Studio Codeの導入方法は、こちらの[「Markup Series Lesson 0: Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)で無料で読むことができます。
+Visual Studio Codeの導入方法は、こちらの[「マークアップ言語シリーズ: Lesson 0 Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)で無料で読むことができます。
 15分-30分前後で設定できる内容ですので、ぜひ、本書に取り組む前に導入が必要であれば活用してください。
 
 # 本書の環境

@@ -1,5 +1,5 @@
 ---
-title: "Markup Series Lesson 1: HTMLの基本へようこそ！"
+title: "マークアップ言語シリーズ: Lesson 1 HTMLの基本へようこそ！"
 free: true
 ---
 
@@ -10,7 +10,7 @@ free: true
 この本は、Markup Seriesのシリーズ第1段です。
 チャプター1から4は、無料でお読みいただけます。
 
-Markup Series Lesson 2以降の本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
+マークアップ言語シリーズ: Lesson 2以降の本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
 
 # 本書の特徴
 
@@ -32,7 +32,7 @@ Markup Series Lesson 2以降の本は、私の[Zennプロフィール](https://z
 
 - テキストエディタの導入（Visual Studio Code推奨）
 
-Visual Studio Codeの導入方法は、こちらの[「Markup Series Lesson 0: Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)で無料で読むことができます。
+Visual Studio Codeの導入方法は、こちらの[「マークアップ言語シリーズ: Lesson 0 Visual Studio Codeを導入してみよう」](https://zenn.dev/arisa_dev/books/markup-lesson0)で無料で読むことができます。
 15分-30分前後で設定できる内容ですので、ぜひ、本書に取り組む前に導入が必要であれば活用してください。
 
 # 本書の環境

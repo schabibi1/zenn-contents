@@ -1,5 +1,5 @@
 ---
-title: "Markup Series Lesson 0: Visual Studio Codeを導入してみよう へようこそ"
+title: "マークアップ言語シリーズ: Lesson 0 Visual Studio Codeを導入してみよう へようこそ"
 ---
 
 本書を手に取ってくださり、ありがとうございます。
@@ -9,7 +9,7 @@ title: "Markup Series Lesson 0: Visual Studio Codeを導入してみよう へ�
 この本は、Markup Seriesの、準備の内容です。
 本書は、全て無料でお読みいただけます。
 
-Markup Series Lesson 1以降の本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
+マークアップ言語シリーズ: Lesson 1以降の本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
 
 # 本書の特徴
 
@@ -31,7 +31,7 @@ Markup Series Lesson 1以降の本は、私の[Zennプロフィール](https://z
 
 - ノートパソコン（Mac推奨）
 
-本書は、[「Markup Series Lesson 1: HTMLの基本」](https://zenn.dev/arisa_dev/books/markup-lesson1)の導入編です。
+本書は、[「マークアップ言語シリーズ: Lesson 1 HTMLの基本」](https://zenn.dev/arisa_dev/books/markup-lesson1)の導入編です。
 15分-30分前後で設定できる内容ですので、ぜひ、上記シリーズに取り組む前に活用してください。
 
 # 本書の環境

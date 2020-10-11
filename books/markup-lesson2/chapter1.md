@@ -3,7 +3,7 @@ title: "CSSとは？"
 free: true
 ---
 
-[Markup Series Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本では、HTMLの書き方をマスターしました。
+[マークアップ言語シリーズ: Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本では、HTMLの書き方をマスターしました。
 
 HTMLのみの開発では、決してモダンなwebサイトとは言えない見栄えなので、CSSを使って、よりユーザーに親しみやすいモダンなスタイルを付与していきましょう。
 

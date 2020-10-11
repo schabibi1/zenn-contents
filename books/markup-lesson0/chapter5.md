@@ -76,4 +76,4 @@ Tabとは、文章を書くときの改行を意味するスペースのよう�
 
 Tabキーがパソコンにはあり、これを使うことでスペースをあけます。
 
-これを **インデント** と呼びます。 [Markup Series Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本で、もう少し具体的に学びますが、Tabとはインデントのことを意味します。
+これを **インデント** と呼びます。 [マークアップ言語シリーズ: Lesson 1 HTMLの基本](https://zenn.dev/arisa_dev/books/markup-lesson1)の本で、もう少し具体的に学びますが、Tabとはインデントのことを意味します。
