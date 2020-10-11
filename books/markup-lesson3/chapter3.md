@@ -1,5 +1,5 @@
 ---
-title: "練習問題"
+title: "練習問題1"
 free: true
 ---
 
@@ -11,7 +11,7 @@ floatの基本構文や、値のそれぞれの役割、floatが要素を浮動�
 
 HTMLファイルやCSSファイルの作成の仕方、検証ツールでの反映確認方法や開発手順については、こちらの本にあります。
 
-- [「マークアップ言語シリーズ: Lesson 1 HTMLの基本」](https://zenn.dev/arisa_dev/books/markup-lesson1/viewer/chapter1)の、[「HTMLとは？」](https://zenn.dev/arisa_dev/books/markup-lesson1/viewer/chapter1)
+- [「マークアップ言語シリーズ: Lesson 1 HTMLの基本」](https://zenn.dev/arisa_dev/books/markup-lesson1)の、[「HTMLとは？」](https://zenn.dev/arisa_dev/books/markup-lesson1/viewer/chapter1)
 - [「マークアップ言語シリーズ: Lesson 2 CSSの基本」](https://zenn.dev/arisa_dev/books/markup-lesson2)の[「スタイルの検証方法、Developer Tool」](https://zenn.dev/arisa_dev/books/markup-lesson2/viewer/chapter9)
 
 ```html
@@ -85,7 +85,7 @@ Left Body、Middle Body、Right Bodyの3つの要素があり、floatがない�
 
 うまく浮動を利用して、要素を並列させることができたでしょうか？
 
-反映結果と正解は以下です。
+反映結果と正解は、次のチャプターです。
 
 :::message
 検証をする際には、必ずブラウザで反映結果を確認しましょう。
@@ -94,7 +94,7 @@ Developer Toolを使用すると、視覚的にスタイルを確認しながら
 
 :::message alert
 完成見本は、上記の完成見本添付画像を見本にしてください。
-以下の回答コードによる反映結果、「Result」項目を見ると、埋め込み部分の画面幅の問題で正確な反映ではありません。
+次のチャプターの回答コードによる反映結果、「Result」項目を見ると、埋め込み部分の画面幅の問題で正確な反映ではありません。
 :::
 
 # 取り組むときのコツ
@@ -108,9 +108,9 @@ Developer Toolを使用すると、視覚的にスタイルを確認しながら
 
 terateilは、日本語のみ、stack overflowは、日本語と英語で質問が可能です。
 
-これらの質問投稿サービスは、既に同じ質問をしている人の回答がされていたり、似たケースの回答が見つかることもあります。
+このような質問投稿サービスは、既に同じ質問をしている人の回答がされていたり、似たケースの回答が見つかることもあります。
 
-エンジニアがボランティアで回答をしています。
+そして、これらのプラットフォームでは、エンジニアがボランティアで回答をしています。
 
 情報としては正しいものがほとんどで、間違っている情報は、ほかのエンジニアが修正をしていることが多く、情報としては信頼性が高いです。
 
@@ -119,17 +119,3 @@ terateilは、日本語のみ、stack overflowは、日本語と英語で質問�
 今後、エンジニアになりたい人は、複数人で開発を行う**チーム開発**という形態で開発をする機会もあります。
 
 その際に、先輩エンジニアやチームメンバーに、**自分が何がわからないのかを、簡潔に適切な表現で伝える練習**をすることにもつながりますので、勉強中の時から活用しておきましょう。
-
-# 答え
-
-:::message alert
-まずは答えを見ずに取り組みましょう。
-:::
-
-@[jsfiddle](https://jsfiddle.net/arisa_dev/52pwvsLr/1/)
-
-:::message
-上達のコツ:
-上記埋め込みコードの「Edit in JSFiddle」をクリックすると、JSFiddleのページで編集ができます。
-floatの仕組みを踏まえて、少しコードに手を加えて、アレンジをしてみるのも練習になります。
-:::
