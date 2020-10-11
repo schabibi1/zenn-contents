@@ -7,7 +7,7 @@ HTML要素を並列させるには、主に2つのスタイルがあります。
 
 1つはこのレッスンで学ぶ **float** です。
 
-もう1つは、次の[マークアップ言語シリーズ: Lesson 4 並列、Flexbox]()で学習をする **Flexbox** です。
+もう1つは、次の[マークアップ言語シリーズ: Lesson 4 並列、Flexbox](https://zenn.dev/arisa_dev/books/markup-lesson4)で学習をする **Flexbox** です。
 
 floatの方が歴史は長く、Flexboxは新しい並列の技法です。
 
