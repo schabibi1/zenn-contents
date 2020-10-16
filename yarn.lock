@@ -3798,11 +3798,12 @@ markdown-it-link-attributes@^3.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-link-attributes/-/markdown-it-link-attributes-3.0.0.tgz#12d6f403102ac22695ee2617bec109ee79426e45"
   integrity sha512-B34ySxVeo6MuEGSPCWyIYryuXINOvngNZL87Mp7YYfKIf6DcD837+lXA8mo6EBbauKsnGz22ZH0zsbOiQRWTNg==
 
-"markdown-it-prism@git+https://github.com/catnose99/markdown-it-prism.git":
-  version "2.1.1"
-  resolved "git+https://github.com/catnose99/markdown-it-prism.git#682f4fecc7e4fc188210efd97a4b86b26d9f9515"
+markdown-it-prism@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-prism/-/markdown-it-prism-2.1.3.tgz#cf1125916103f12c3213fb3c55464fbd1efd5858"
+  integrity sha512-iK7dlsQawpOWlWa/p+jPWNFcn5E0Ace4G49uGatppIYck4PAvrNTb74cb0GUF0km3rZcy6Wz1nFrzXbmMcxNdQ==
   dependencies:
-    prismjs "^1.21.0"
+    prismjs "1.22.0"
 
 markdown-it-task-lists@^2.1.1:
   version "2.1.1"
@@ -4560,10 +4561,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prismjs@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
-  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
+prismjs@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.22.0.tgz#73c3400afc58a823dd7eed023f8e1ce9fd8977fa"
+  integrity sha512-lLJ/Wt9yy0AiSYBf212kK3mM5L8ycwlyTlSxHBAneXLR0nzFMlZ5y7riFPF3E33zXOF2IH95xdY5jIyZbM9z/w==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -5931,10 +5932,10 @@ yeast@0.1.2:
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
   integrity sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 
-zenn-cli@^0.1.45:
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.45.tgz#e9f6d2a679fd84638e10c936e787ce0ab30a00d3"
-  integrity sha512-WTxQPMSdl/Ra1OI3PlIQFEaZ8ruXKHeRXQflc8mz2wMvdQeR/Khy+Q9TwEcA4jFQsdbhWnJPORyb0GYxZdVMDg==
+zenn-cli@^0.1.49:
+  version "0.1.49"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.49.tgz#a5944d4299d36965430cf9c8863ce251b0b382e6"
+  integrity sha512-9WQCEHIsG4K4J8ARBBUxvCoxt5SGss1PtRfGqJUHLddlnNL1LinJTZzyawTy77W98QX2zFqOSQ95iV/WqoLb1g==
   dependencies:
     "@types/socket.io" "^2.1.11"
     arg "^4.1.3"
@@ -5952,24 +5953,24 @@ zenn-cli@^0.1.45:
     socket.io "^2.3.0"
     socket.io-client "^2.3.0"
     update-notifier "4.1.0"
-    zenn-content-css "^0.1.45"
+    zenn-content-css "^0.1.49"
     zenn-init-embed "^0.1.3"
-    zenn-markdown-html "^0.1.45"
+    zenn-markdown-html "^0.1.48"
 
-zenn-content-css@^0.1.45:
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.45.tgz#ab6e149572d9d992d2a9d9b12353e8f25613da37"
-  integrity sha512-ju+LY+Ao/TPdo2kR3DGppaThgBHEkpFR8wBEi7/n4itAlTe2mumjiZsrz7Skk8L9CFo9xBPScPXBgQarHdLMMw==
+zenn-content-css@^0.1.49:
+  version "0.1.49"
+  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.49.tgz#add16a260c1588f372f25de48d3142eef7f113af"
+  integrity sha512-penegrWyu2C5FYYJB8bP0y/S5+Bbj7vZWY4O4veFV11IUI9H1n4X/1qA2OJskbL4sZO1073DEN8Xzh5FW35yGw==
 
 zenn-init-embed@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/zenn-init-embed/-/zenn-init-embed-0.1.3.tgz#c93affce79123806a27b2ae714b8b5d75b50b6f5"
   integrity sha512-f8guE79vNaGojmStQBT74c7Q6FKhGcMGHiHU7J5scALiSN/FUOx1wMKJYM+i7OC/9FymofMUAP2YRaMKUCM9MA==
 
-zenn-markdown-html@^0.1.45:
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.45.tgz#25a2d423b7cac5a510f395cdedbf539d27ba71e2"
-  integrity sha512-k22YbEi6Gtz1KwEgXi8yaHCG1657Sud+a6sBL6w5shiIO2jnZUq1LTsOMa/iKZf793dIwL5S1iM3LYGpSkhHpQ==
+zenn-markdown-html@^0.1.48:
+  version "0.1.48"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.48.tgz#44e51b8bb9dcfd4ccc06271f5c55c19433ab8485"
+  integrity sha512-PXnMOKRgPYPxJtbjdjpH3OOJIMdiJDgbRntRjGiMCsDE6FCrQAoAaYJ7/LPXmFUmY81vaDmXzdN3PSQJy6gwvg==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     katex "^0.11.1"
@@ -5981,6 +5982,6 @@ zenn-markdown-html@^0.1.45:
     markdown-it-image-lazy-loading "^1.0.2"
     markdown-it-inline-comments "^1.0.1"
     markdown-it-link-attributes "^3.0.0"
-    markdown-it-prism "git+https://github.com/catnose99/markdown-it-prism.git"
+    markdown-it-prism "^2.1.3"
     markdown-it-task-lists "^2.1.1"
     markdown-it-texmath "git+https://github.com/catnose99/markdown-it-texmath.git"

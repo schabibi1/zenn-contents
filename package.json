@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/schabibi1/markup-lesson1-zenn#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.45"
+    "zenn-cli": "^0.1.49"
   }
 }
