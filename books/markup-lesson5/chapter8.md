@@ -1,5 +1,6 @@
 ---
 title: "コンテナーとコンテンツの分離"
+free: true
 ---
 
 # オブジェクト指向CSS（OOCSS）のルール2: コンテナーとコンテンツの分離（Separate container and content）
