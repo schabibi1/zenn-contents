@@ -56,7 +56,7 @@ Live Shareも、インストールしておくと、とても便利なエクス�
 
 （共有してもらう場合は、「Join」をクリックし、共有コードを記入します。）
 
-![](https://storage.googleapis.com/zenn-user-upload/mjovujhpsswirh12rtxsm9458n5z)
+![login](https://storage.googleapis.com/zenn-user-upload/mjovujhpsswirh12rtxsm9458n5z)
 
 アカウントを持っている方を選択し、ログインをしてください。
 
@@ -64,23 +64,23 @@ Live Shareも、インストールしておくと、とても便利なエクス�
 
 ログイン情報を記入して、ログインします。
 
-![](https://storage.googleapis.com/zenn-user-upload/y127t9fb0ofay9naudzovf9nun0b)
+![login-github](https://storage.googleapis.com/zenn-user-upload/y127t9fb0ofay9naudzovf9nun0b)
 
 以下のように、許可をするよう出てきますので、許可をします。
 
-![](https://storage.googleapis.com/zenn-user-upload/s88pu8ptvciduxz4igi57ffuk3hg)
+![auth](https://storage.googleapis.com/zenn-user-upload/s88pu8ptvciduxz4igi57ffuk3hg)
 
 許可をすると、以下のように共有コードが発行されます。
 
-![](https://storage.googleapis.com/zenn-user-upload/cf6pzvh54c9iick47qzibliicepy)
+![pass](https://storage.googleapis.com/zenn-user-upload/cf6pzvh54c9iick47qzibliicepy)
 
-「Open with VS Code」もしくは、共有コードをコピーして、VS Codeに戻ります。
+「Open Visual Studio Code」もしくは、共有コードをコピーして、VS Codeに戻ります。
 
-（「Open with VS Code」の方が簡単です）
+（「Open Visual Studio Code」の方が簡単です）
 
-「Open with VS Code」をクリックしたら、VS Codeのアプリケーションで、以下のように出てきますので、「open」を選択すると、ソースコードの共有が完了します。
+「Open Visual Studio Code」をクリックしたら、VS Codeのアプリケーションで、以下のように出てきますので、「open」を選択すると、ソースコードの共有が完了します。
 
-![](https://storage.googleapis.com/zenn-user-upload/qyrpclx7r9c4ijnr0ml1m55m9mli)
+![open](https://storage.googleapis.com/zenn-user-upload/qyrpclx7r9c4ijnr0ml1m55m9mli)
 
 Live Shareを使うと、スクリーンシェアをしなくてもブラウザの共有もできたり、コマンドラインの画面も共有できたり（閲覧のみ）するので、スクリーンシェアをしなくても共同作業が可能になります。
 
