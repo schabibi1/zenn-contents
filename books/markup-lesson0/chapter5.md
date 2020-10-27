@@ -2,7 +2,7 @@
 title: "エクステンションとコマンドパレット"
 ---
 
-# エクステンションのインストール
+# エクステンションのインストール1: Beautify
 
 VS Codeは、様々なエクステンション\(プラグイン\)が公開されていて、これらをインストールすることでより快適にエディタを使えます。
 
@@ -27,6 +27,62 @@ Beautifyを使うと、HTMLファイルやCSSファイルのインデント（�
 エクステンションは、インストールしなければエディタが使えないというわけではなく、何もインストールしなくてもVS Codeは使用できますので、必要がない場合はインストールしなくても問題ありません。
 
 必要に応じてエクステンションはインストールしましょう。
+
+# エクステンションのインストール2: Trailing Spaces
+
+![trailing-spaces](https://storage.googleapis.com/zenn-user-upload/l6mbjiaj1907klbj9r1pghcfrldn)
+
+Trailing Spacesは、余白を赤くハイライトして教えてくれるエクステンションです。
+
+余白があると、言語によっては挙動を起こします。
+
+気が付きにくい余白によるエラーのリスクを、あらかじめ、なくすことに役立つエクステンションですので、Trailing Spacesは、ぜひインストールしておきましょう。
+
+# エクステンションのインストール3: Live Share
+
+![live-share](https://storage.googleapis.com/zenn-user-upload/mo6xo6cl7tp1euv32edii19989ns)
+
+Live Shareは、遠隔でGoogle Docsのように、1つのソースコードファイルを、リアルタイムで複数人が編集することができるエクステンションです。
+
+スクリーンシェアをしなくても、ソースコードファイルを共有し、同時にリアルタイムで編集することができるため、リモートワークや、オンラインでのプログラミング学習のサポートで非常によく使用されています。
+
+Live Shareも、インストールしておくと、とても便利なエクステンションの1つです。
+
+使い方は非常に簡単で、以下の画像にあるように、画面左のツールバーにあるLive Shareのアイコンを選択します。
+
+![live-share-how-to](https://storage.googleapis.com/zenn-user-upload/yl292oa0zqiywmsqob8eqvsbpzwb)
+
+その次に、共有する場合は「Share（React/Write）」もしくは「Share（Read-only）」のいずれかを選択すると、以下のように、Microsoftアカウントでログインをするか、Githubアカウントでログインをするかどうか聞かれます。
+
+（共有してもらう場合は、「Join」をクリックし、共有コードを記入します。）
+
+![](https://storage.googleapis.com/zenn-user-upload/mjovujhpsswirh12rtxsm9458n5z)
+
+アカウントを持っている方でログインをしてください。
+
+今回はGithubのログインを例に見ていきます。
+
+ログイン情報を記入して、ログインします。
+
+![](https://storage.googleapis.com/zenn-user-upload/y127t9fb0ofay9naudzovf9nun0b)
+
+以下のように、許可をするよう出てきますので、許可をします。
+
+![](https://storage.googleapis.com/zenn-user-upload/s88pu8ptvciduxz4igi57ffuk3hg)
+
+許可をすると、以下のように共有コードが発行されます。
+
+![](https://storage.googleapis.com/zenn-user-upload/cf6pzvh54c9iick47qzibliicepy)
+
+「Open with VS Code」もしくは、共有コードをコピーして、VS Codeに戻ります。
+
+（「Open with VS Code」の方が簡単です）
+
+「Open with VS Code」をクリックしたら、VS Codeのアプリケーションで、以下のように出てきますので、「open」を選択すると、ソースコードの共有が完了します。
+
+![](https://storage.googleapis.com/zenn-user-upload/qyrpclx7r9c4ijnr0ml1m55m9mli)
+
+Live Shareを使うと、スクリーンシェアをしなくてもブラウザの共有もできたり、コマンドラインの画面も共有できたり（閲覧のみ）するので、スクリーンシェアをしなくても共同作業が可能になります。
 
 # 発展内容: コマンドパレット機能
 
