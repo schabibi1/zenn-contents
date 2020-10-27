@@ -52,13 +52,13 @@ Live Shareも、インストールしておくと、とても便利なエクス�
 
 ![live-share-how-to](https://storage.googleapis.com/zenn-user-upload/yl292oa0zqiywmsqob8eqvsbpzwb)
 
-その次に、共有する場合は「Share（React/Write）」もしくは「Share（Read-only）」のいずれかを選択すると、以下のように、Microsoftアカウントでログインをするか、Githubアカウントでログインをするかどうか聞かれます。
+その次に、共有する場合は「Share（Read/Write）」もしくは「Share（Read-only）」のいずれかを選択すると、以下のように、Microsoftアカウントでログインをするか、Githubアカウントでログインをするかどうか聞かれます。
 
 （共有してもらう場合は、「Join」をクリックし、共有コードを記入します。）
 
 ![](https://storage.googleapis.com/zenn-user-upload/mjovujhpsswirh12rtxsm9458n5z)
 
-アカウントを持っている方でログインをしてください。
+アカウントを持っている方を選択し、ログインをしてください。
 
 今回はGithubのログインを例に見ていきます。
 
