@@ -60,9 +60,17 @@ HTMLの特定の要素をクリックしてみると、該当のHTML要素が、
 
 試しに、Googleのページを開きましょう。
 
-Googleのページを開いたら、Developer Toolで、どのHTML要素でも良いので、以下のGifのように選択し、スタイルを変えてみましょう。
+Googleのページを開いたら、Developer Toolで、どのHTML要素でも良いので、以下の順のように選択し、スタイルを変えてみましょう。
 
-![style_demo](./images/style_demo.gif)
+![](https://storage.googleapis.com/zenn-user-upload/wgldm2h6rzyrp3bvzs48c2vv5xeg)
+
+![](https://storage.googleapis.com/zenn-user-upload/hskb9puw884i5lta8f2q55cihiqg)
+
+![](https://storage.googleapis.com/zenn-user-upload/4ngpqwyvxvpatfuas0juy26fmhee)
+
+![](https://storage.googleapis.com/zenn-user-upload/j1uybcxx96lwsirxqvhdmphnrvmg)
+
+![](https://storage.googleapis.com/zenn-user-upload/uoo3311c9lfevq5zflh4lanyebcs)
 
 一時的なスタイルの変更なので、画面をリロード（再読み込み）すると全てリセットされます。
 
