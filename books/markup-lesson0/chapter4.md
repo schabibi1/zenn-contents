@@ -16,7 +16,7 @@ title: "文字検索と置換"
 
 この文章は、プログラマがよく文章を仮に埋めたい時に使う"Lorem Ipsum"という文章です。
 
-準備が完了したらファイル内で `ctrl + F` と押します。
+準備が完了したらファイル内で `command + F` と押します。
 
 検索ボックスが立ち上がります。
 
@@ -31,6 +31,12 @@ title: "文字検索と置換"
 文字の置換を使ってみましょう。
 
 先程のファイルを開いたまま `Alt + command + F` を押しましょう。
+
+Altキーが見当たらなければ、文字検索の `command + F` に、以下の「>」をクリックすると、文字置換が開きます。
+
+![](https://storage.googleapis.com/zenn-user-upload/x9w0lhwfyaehh751ofzuo44h96ju)
+
+![](https://storage.googleapis.com/zenn-user-upload/kueodi4k2zdt5sv1kizh8s3q6ieh)
 
 検索用のウィンドウが、置換用のウィンドウに切り替わります。
 
