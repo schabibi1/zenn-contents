@@ -1,29 +1,50 @@
 ---
-title: "まとめ"
+title: "練習問題"
 ---
 
-いかがでしたか？
+# Pinterest風webページを作ろう（所要時間の目安: 30分-60分）
 
-[マークアップ言語シリーズ: Lesson 3 並列、float](https://zenn.dev/arisa_dev/books/markup-lesson3)で習得したfloatよりも、並列以上にスタイルを指定することのできるオプションが、Flexboxはとても豊富でしたね。
+# 要件
 
-floatでも並列だけに関して言えば、機能的には十分ですが、Flexboxを使うことで、**用意してあるプロパティと値を指定するだけで、ほぼスタイルが整う**ことも、非常に多いです。
+本書で取り組んだFlexboxと、今までのマークアップ言語シリーズで学習をしたHTMLと、CSSの基本の総復習として、Piterest風のwebページを作りましょう。
 
-細かいスタイルの微調整をする労力が、Flexboxを使うことで大幅に軽減されるので、**基本的にはFlexboxを並列要素には指定することをお勧め**します。
+以下の完成見本の通りになるよう、取り組んでみましょう。
 
-どうしてもfloatの方が、初めのうちは習得するコンテンツも少ないので、floatで設定したくなります。
+![](https://storage.googleapis.com/zenn-user-upload/7ilnek6483avzqdnoe3u4wqjarme)
 
-ですが、一度FlexboxのHTML構造を理解することができ、用意してあるFlexboxのプロパティと値を調べて使うことができるようになれば、**Flexboxの方が利便性が高い**ということが、実感できるようになります。
+スターターフォルダを、以下よりダウンロードして取り組んでください。
 
-プログラミングの学習は、暗記をしようとすると、とても苦しいものになります。
+スターターフォルダ名は、「lesson4-pinterest-starter」です。
 
-もちろん基礎を知って覚えておくことは大切ですが、暗記をしようとするより、わからない問題に直面しても、調べて解決策を見つける力の方が大切です。
+> [スターターフォルダ](https://github.com/schabibi1/zenn-book-challenges)
 
-ですので、Flexboxで用意してあるプロパティと値を全て覚えようとするのは大変なのでお勧めできませんが、基本的で使用頻度の高いものは、本書を調べて書くことができる、もしくは、本書にないものは検索して見つけて書くことができるようになることを目標とすると、Flexboxが難しいとは思わなくなるかと思います。
+以下の項目をヒントに取り組みましょう。
 
-使う回数、技法を書く回数を増やすことで、少しずつ定着させていきましょう。
+1. Flexboxが有効化されやすいHTML要素の構造を意識して、HTMLコードを構成しましょう
+2. ページ上部のパーツからHTML要素を構成していきましょう
+3. HTMLの構成が終わったら、CSSでスタイル付与を行いましょう
+4. floatは使用せず、Flexboxで対応してください
+5. 「Pinterest-ish」箇所と「Login」箇所の文字色と背景色は `#e60023` を使用してください
+6. 「weeknight dinner idea」箇所の文字色は、 `#c28b00` を使用してください
+7. 「Signup」の背景色は `#efefef` を使用してください
+8. フォントはGoogle Fontsを使用しても良いです
+9. widthを指定する場合は、pxではなく、%を単位として使用してください
+10. heightを指定する場合は、pxではなく、vhを使用してください
 
-# 参考ソース
+### vhの単位
 
-* [CSS flexible box の利用 - MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
-* [Flexbox Froggy](http://flexboxfroggy.com/#ja)
-* [もう迷わない！CSS Flexboxの使い方を徹底解説](https://webdesign-trends.net/entry/8148)
+vhとは、表示画面に対しての高さを示す単位です。
+
+異なる横幅や大きさの端末がたくさん出てきたことで、レスポンシブデザインという、画面サイズに合わせて、webサイトの構成をみやすく変化させる技術が必要になりました。
+
+詳しくは、この先のマークアップ言語シリーズの本で取り扱いますが、その際に、ほぼ自動で画面幅のサイズから、指定された高さを算出して表示してくれるのが、vhという単位です。
+
+vは「viewport」、hは「height」です。
+
+viewportとは、「表示範囲」「表示領域」のことです。
+
+何の表示領域かというと、皆さんが見ているパソコン画面の表示画面や、スマホ端末の表示画面、タブレット端末の表示画面のことです。
+
+![](https://storage.googleapis.com/zenn-user-upload/0kxqapcur6hwqt3omlvqq01wml3a)
+
+- [MDN: 相対的な長さの単位、vh](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Values_and_Units)
