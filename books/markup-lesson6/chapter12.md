@@ -32,6 +32,6 @@ free: true
 
 上記の正解と照らし合わせながら、何番目のグリッドラインと一致するかを、以下の図を参考に見てみると、なぜ答えのようになるのかが、わかりやすいかと思います。
 
-![](https://storage.googleapis.com/zenn-user-upload/d7ibz1vfw6i4ce6z0c1omif9x0hu)
+![](https://storage.googleapis.com/zenn-user-upload/yxcmeaic38walpcasw4no6x9shp0)
 
 このように、全てのグリッドラインには、順番の番号が振ってあるので、個々のグリッドアイテムの操作も、柔軟にできるということです。

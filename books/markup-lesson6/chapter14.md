@@ -1,5 +1,5 @@
 ---
-title: "グリッド領域/Grid area"
+title: "グリッド領域/Grid areas"
 free: true
 ---
 
