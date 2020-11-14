@@ -26,4 +26,3 @@ floatでも並列だけに関して言えば、機能的には十分ですが、
 
 * [CSS flexible box の利用 - MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 * [Flexbox Froggy](http://flexboxfroggy.com/#ja)
-* [もう迷わない！CSS Flexboxの使い方を徹底解説](https://webdesign-trends.net/entry/8148)
