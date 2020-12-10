@@ -1,0 +1,10 @@
+title: "マークアップ言語シリーズ: Lesson 7 レスポンシブデザイン"
+summary: "これからプログラミング学習を始められる方に向けての、web開発、フロントエンド開発をするための、最も優しい基本をまとめました。CSSと最新のレスポンシブデザインをこれから新しく学習したい人に向けた教材です。"
+topics: ["markdown", "css", "frontend"]
+published: false
+price: 2000 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - chapter0
+  - chapter1
+  - chapter2
