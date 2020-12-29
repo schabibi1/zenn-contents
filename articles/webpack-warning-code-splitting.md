@@ -19,7 +19,7 @@ This can impact web performance.
 
 ![](https://storage.googleapis.com/zenn-user-upload/trop6ffot2jpqvonvy23xdtu7b8g)
 
-このプロジェクトでは、lodashのパッケージをインポートしているのだけど、パッケージで必要な関数だけを読み込むんじゃなく、どうやら丸ごと読み込んでしまっているらしい。
+このプロジェクトでは、lodashのパッケージをインポートしているのだけど、パッケージで不必要なものも丸ごと読み込んでしまっているらしい。
 
 言われている通り、web全体の動き（イベント発火時の処理など）はもっさりする。
 
