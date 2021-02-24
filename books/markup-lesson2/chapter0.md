@@ -66,7 +66,7 @@ Arisa Fukuzaki
 ### 職業
 - フリーランス フルスタックエンジニア
 - フロントエンド開発個人講師（マンツーマン学習サポートをご希望の方は[こちら](https://aiki-developer.com/contact)まで）
-- Lilac 開発中
+- Lilac 運営&開発中
 
 ### 得意分野
 - JavaScript
