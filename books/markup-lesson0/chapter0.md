@@ -82,4 +82,12 @@ Arisa Fukuzaki
 
 講師の活動の傍ら、テキスト教材販売と、マンツーマンプログラミング学習サポート提供のLilac(ライレック)を開発中。
 
+[Gatsby.js](https://www.gatsbyjs.com/)公式オンラインイベント、[GatsbyConf 2021](https://gatsbyconf.com/)で登壇経験あり。
+
+- [GatsbyConf 2021: 登壇内容](https://gatsbyconf.com/event/finding-my-developer-happy-path-with-gatsby-x-contentful/)
+- [Gatsby.js: 登壇前インタビュー記事](https://www.gatsbyjs.com/blog/gatsbyconf-qa-arisa-fukuzaki/)
+- [登壇動画（日本語字幕版）](https://youtu.be/Xtrqm4zZGQY)
+
+https://youtu.be/Xtrqm4zZGQY
+
 新しい技術のキャッチアップと合気道、スノボ、旅行が好き。

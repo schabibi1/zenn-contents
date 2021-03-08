@@ -5,7 +5,7 @@ free: true
 
 # Hook（フック）とは？
 
-Hook（フック）とは、関数コンポーネントに対して、Reactの機能を「つなげる」ための関数です。
+Hook（フック）とは、関数コンポーネントに対して、Reactの機能を「有効化する（つなげる）」ための関数です。
 
 Reactの機能とは、具体的には、stateやライフサイクルなどがありますね。
 
@@ -111,7 +111,7 @@ render() {
 }
 ```
 
-つまり、 `useState` を使った場合は、以下のように書き換えられると言うことになりますね。
+つまり、 `useState` を使った場合は、以下のように書き換えられるということになりますね。
 
 ```javascript
 // useStateをインポート
@@ -137,6 +137,70 @@ function 関数名() {
 
 クラスコンポーネント内の `this.setState` は、簡潔に言うと、propsの上書きを行うものでしたが、State Hookの場合、 **新しいstateが、元のものと統合されない** という違いがあるので、全く同じものではないので、注意しましょう。
 
- `useState` と `this.state` の違いについては、この先のチャプターで解説をします。
+ `useState` と `this.state` の違いについては、次の「State Hookの具体的な使い方」チャプターで解説をします。
+
+さて、引数がまだどんな値が格納されるのか、不明なままでしたね。
+
+この `useState()` の引数は、以下の値が格納されます。
+
+| useState()の引数の値 |
+| ---- |
+| stateの初期値 |
+
+どういうことかというと、クラスコンポーネントの時でいう、state内の初期値です。
+
+以下、クラスコンポーネントの時と、関数コンポーネントの時とで、見比べてみましょう。
+
+```javascript
+// 省略
+constructor() {
+  super();
+  this.state = {
+    // 👇
+    name: '',
+    id: 0
+  }
+}
+
+render() {
+  // 👇
+  const {
+    name,
+    id
+  } = this.state;
+
+  return (
+    {/* 省略 */}
+  )
+}
+```
+
+つまり、 `useState` を使った場合は、以下のように書き換えられるということになります。
+
+```javascript
+// useStateをインポート
+import React, { useState } from 'react';
+
+// 関数コンポーネントで用意
+function 関数名() {
+  const [name, setName] = useState('');// 👈
+  const [id, setId] = useState(0);// 👈
+
+  return (
+    <div>
+      <JSX要素 イベント={() => setName(name)}></JSX要素>
+      <JSX要素 イベント={() => setId(id)}></JSX要素>
+    </div>
+  );
+}
+```
+
+## useState、stateの値の型
+
+クラスコンポーネントベースの時は、 `this.state` 内で指定する初期値は、オブジェクトと決まっていましたね。
+
+しかし、感すコンポーネントベースのHookには、その制限はありません。
+
+つまり、Hookのstateは、必ずオブジェクトである必要はないということになります。
 
 # Hookの後方互換性
