@@ -59,7 +59,7 @@ Reactの公式ドキュメントでは、どちらの表現も使われていま
 
 まずは、最もシンプルな構文から見ていきましょう。
 
-```javascript
+```jsx
 // useStateをインポート
 import React, { useState } from 'react';
 
@@ -77,7 +77,7 @@ function 関数名() {
 
 少し見慣れない部分があるといえば、以下の部分かと思います。
 
-```javascript
+```js
 const [stateValue, setStateValue] = useState(引数);
 ```
 
@@ -87,7 +87,7 @@ const [stateValue, setStateValue] = useState(引数);
 
 以下の例でいう、 `name` と `id` が該当します。
 
-```javascript
+```jsx
 // 省略
 constructor() {
   super();
@@ -113,7 +113,7 @@ render() {
 
 つまり、 `useState` を使った場合は、以下のように書き換えられるということになりますね。
 
-```javascript
+```jsx
 // useStateをインポート
 import React, { useState } from 'react';
 
@@ -143,15 +143,15 @@ function 関数名() {
 
 この `useState()` の引数は、以下の値が格納されます。
 
-| useState()の引数の値 |
+| useState()の引数 |
 | ---- |
 | stateの初期値 |
 
-どういうことかというと、クラスコンポーネントの時でいう、state内の初期値です。
+どういうことかというと、 **クラスコンポーネントの時でいう、state内の初期値** です。
 
 以下、クラスコンポーネントの時と、関数コンポーネントの時とで、見比べてみましょう。
 
-```javascript
+```jsx
 // 省略
 constructor() {
   super();
@@ -177,7 +177,7 @@ render() {
 
 つまり、 `useState` を使った場合は、以下のように書き換えられるということになります。
 
-```javascript
+```jsx
 // useStateをインポート
 import React, { useState } from 'react';
 
@@ -195,12 +195,23 @@ function 関数名() {
 }
 ```
 
-## useState、stateの値の型
+## useState: stateの値の型
 
 クラスコンポーネントベースの時は、 `this.state` 内で指定する初期値は、オブジェクトと決まっていましたね。
 
-しかし、感すコンポーネントベースのHookには、その制限はありません。
+```jsx
+// 省略
+constructor() {
+  super();
+  // 👇 値の型: オブジェクト
+  this.state = {
+    name: '',
+    id: 0
+  }
+}
+// 省略
+```
 
-つまり、Hookのstateは、必ずオブジェクトである必要はないということになります。
+しかし、関数コンポーネントベースのHookには、その制限はありません。
 
-# Hookの後方互換性
+つまり、 **Hookのstateは、必ずオブジェクトである必要はない** ということになります。
