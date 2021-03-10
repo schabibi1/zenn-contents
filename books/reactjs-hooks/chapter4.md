@@ -1,5 +1,5 @@
 ---
-title: "State Hookの具体的な使い方"
+title: "State Hookの簡易的な使い方"
 free: true
 ---
 
@@ -208,7 +208,7 @@ export default App;
 
 :::message
 **検証のコツ:**
-構造がシンプルなうちにイベントがトリガーされているかを検証すると、構造が複雑化する前に、イベントトリガーにエラーの原因が潜んでいないことが断言でき、要因を絞り込みやすくなります。
+構造がシンプルなうちにイベントがトリガーされているかを検証すると、構造が複雑化する前に、イベントトリガーにエラーの原因が潜んでいないことが断言できます。要因を絞り込みやすくするコツです。
 :::
 
 ```diff jsx:src/App.js
@@ -233,3 +233,36 @@ export default App;
 ```
 
 ![](https://storage.googleapis.com/zenn-user-upload/b5b6ozgy600r9nyy8fi4dttqhszn)
+
+ブラウザdev toolのコンソールに、クリックした回数だけイベントが発生して、「clicked!🖱」の文字列が出力されていることが確認できますね。
+
+では、1ずつstateのcountに、加算をしていく記述をしていきたいと思います。
+
+チャプター4のState Hookの基本構文を確認しながら書いていきましょう。
+
+```diff jsx:src/App.js
+import React, { useState } from 'react';
+import './App.css';
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div className="App">
+      <h1>Counter App 🧮</h1>
++      <button onClick={() => setCount(count + 1)}>
+        +
+      </button>
+      <h3>{count} times clicked!🖱</h3>
+    </div>
+  );
+}
+
+export default App;
+```
+
+![](https://storage.googleapis.com/zenn-user-upload/rrsveqqxo9m8pp3p2m5400pss6d1)
+
+クリックイベントが発生した回数分、1ずつstateのcountが加算されていることが確認できます。
+
+カウンターアプリが、とても簡単にできましたね。

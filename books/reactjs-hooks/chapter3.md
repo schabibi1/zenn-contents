@@ -1,5 +1,5 @@
 ---
-title: "State Hook"
+title: "State Hook: useState"
 free: true
 ---
 
