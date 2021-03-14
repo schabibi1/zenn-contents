@@ -7,7 +7,9 @@ free: true
 
 実際にチャプター5から、React Hooksがどのようなものなのかを知るために、簡易的なカウンターアプリを使って解説をしていきます。
 
-<!-- カウンターアプリ完成見本画像を添付 -->
+#### アプリ完成見本
+
+![](https://storage.googleapis.com/zenn-user-upload/07rfk97ojt49wjn578fosh69zzyo)
 
 :::details webアプリケーション開発の実装前に必要な作業
 
@@ -45,13 +47,35 @@ free: true
 
 Adobe XDを使ってデザイン設計を書いたことがある方であれば、プロトタイプという機能を使ったことがあるかと思います。
 
+プロトタイプの使い方は、以下のAdobe XD公式サイトのチュートリアルが、非常にわかりやすいです。
+
 > Adobe XD [「プロタイプを作成」](https://helpx.adobe.com/jp/xd/how-to/make-a-prototype-easy.html)
+
+> Adobe XD [Create interactive prototypes in Adobe XD](https://www.adobe.com/creativecloud/business/enterprise/xd-prototypes.html)
 
 Adobe XDのプロトタイプを使うと、例えばまるでユーザーがアプリを使っているのと変わらない完成見本の設計を作ることができます。
 
+設計ですが、クリック先の画面にジャンプしたり、アニメーションを付与することができたりできます。
+
 実際に今回実装する簡易的なアプリケーションの画面・遷移設計をAdobe XDで作成したものがこちらです。
 
-<!-- Adobe XDで作成したプロトタイプ画像を貼る -->
+![](https://storage.googleapis.com/zenn-user-upload/hvx9e7fkxor6rpdafhqd7d9stxjx)
+
+> [Adobe XDで作成した遷移設計プロトタイプ](https://xd.adobe.com/view/10911a76-206f-460d-59a8-3a38d004458c-66a0/)
+
+上記のプロトタイプは、皆さんが見ることができるように開放してあります。
+
+![](https://storage.googleapis.com/zenn-user-upload/cgvxjgqs1l6uabwf43tokbjifvl0)
+
+実際に、上記のページにアクセスされたら、このような画面に移動します。
+
+「+」と「-」ボタンをクリックして、遷移のフローを確認してみてください。
+
+-1、0、1、2までのフローであればAdobe XDのプロトタイプ機能で作成しています。
+
+このように、Adobe XDでワイヤーフレームや、画面・遷移設計をすると、チームメンバーやクライアントに共有することができ、視覚的に設計を伝えることが可能です。
+
+共有機能などはAdobe XDの公式ページを確認すると載っていますので、今回は割愛します。
 
 :::message
 画面・遷移設計部分も、できれば上記の見本を参考に、Adobe XDで作成してみましょう。

@@ -1166,7 +1166,7 @@ colors@^1.4.0:
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
-commander@^2.19.0, commander@^2.20.0:
+commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -2614,13 +2614,6 @@ jsonfile@^6.0.1:
     universalify "^1.0.0"
   optionalDependencies:
     graceful-fs "^4.1.6"
-
-katex@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.12.0.tgz#2fb1c665dbd2b043edcf8a1f5c555f46beaa0cb9"
-  integrity sha512-y+8btoc/CK70XqcHqjxiGWBOeIL8upbS0peTPXTvgrh21n1RiWWcIpSWM+4uXq+IAgNh9YYQWdc7LVDPDAEEAg==
-  dependencies:
-    commander "^2.19.0"
 
 keyv@^3.0.0:
   version "3.1.0"
@@ -4960,10 +4953,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zenn-cli@^0.1.74:
-  version "0.1.74"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.74.tgz#dc773d10c80feebadfe0a82f9de3f362e567d60e"
-  integrity sha512-lXADPPnjdcvuSbnPn58QCao2G18j7oN2zV2IzX8mnmHTHlRcfv59Su4K2r1VqTDy28PbvC7AZW2KVOmqgChRGQ==
+zenn-cli@^0.1.75:
+  version "0.1.75"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.75.tgz#81caa704deb448feb7207c4cc718d30b58709f35"
+  integrity sha512-2RkdtMs7V8zCTeVB/ifF6doTz2MJQ3ZgUlqIOHQTTGe2S7aehycZZC1J3OSkQK+azzpQSaQugwfECynC8HoD0Q==
   dependencies:
     "@types/update-notifier" "^5.0.0"
     arg "^4.1.3"
@@ -4982,29 +4975,28 @@ zenn-cli@^0.1.74:
     socket.io "^3.1.0"
     socket.io-client "^3.1.0"
     update-notifier "^5.1.0"
-    zenn-content-css "^0.1.74"
-    zenn-embed-elements "^0.1.74"
-    zenn-markdown-html "^0.1.74"
+    zenn-content-css "^0.1.75"
+    zenn-embed-elements "^0.1.75"
+    zenn-markdown-html "^0.1.75"
 
-zenn-content-css@^0.1.74:
-  version "0.1.74"
-  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.74.tgz#5da9adc6ca8cbeda2327cef9833b270fb240a25a"
-  integrity sha512-4RSRGRdHSjoRDoVjYw0zRwrUuhyAYcrJ/Y6EaJjN51xX1gmEyM8AfatmrthJ6ZX+fmKbC2FWkuyNsTvzikOQ7g==
+zenn-content-css@^0.1.75:
+  version "0.1.75"
+  resolved "https://registry.yarnpkg.com/zenn-content-css/-/zenn-content-css-0.1.75.tgz#4a740dcb4fc41ce1a6112edfe8a003dfbe4c4e53"
+  integrity sha512-UZtCDUnj9h4Smby2HJoj5TUeohpj1ZHVyVyCXPOuUcM1pmcIK019R4YRoFlDDgzdOca5Sjb0tWGSuzMAHMYTRw==
 
-zenn-embed-elements@^0.1.74:
-  version "0.1.74"
-  resolved "https://registry.yarnpkg.com/zenn-embed-elements/-/zenn-embed-elements-0.1.74.tgz#50d186d8381d29870589b8d20e8adc6690e29b17"
-  integrity sha512-wXcFgy00REZgNlhA5cZWpeelnGhDQCpPSCfyYFbliMks78igXM0vwzy2XtnUk0OrcgF9uOFmlUGkSyLF4UCbgw==
+zenn-embed-elements@^0.1.75:
+  version "0.1.75"
+  resolved "https://registry.yarnpkg.com/zenn-embed-elements/-/zenn-embed-elements-0.1.75.tgz#b2d97ec94ee7a9412c624dd0909b628e38246c98"
+  integrity sha512-r+O2wwANYwIcIfOn4mZFmjJXlJckPKRa4B1HpZWlfNKv42nDZWZiRkgyNaFtXj1p04kC53pFaDxVxHxnUkfkPA==
 
-zenn-markdown-html@^0.1.74:
-  version "0.1.74"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.74.tgz#2aebf9614f31e65f61ae03b78dc569ce5119b1a4"
-  integrity sha512-/tSvn2hhDXdbixoZtY1f4mrPWnWI+hj0TwUNcbtIh5nbZrGAWKNbxn7GTSuZbPVb+8ejUe1k7zv01BgM30tHWA==
+zenn-markdown-html@^0.1.75:
+  version "0.1.75"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.1.75.tgz#51df640fd2ef088811863f76bb50d5e5eddb5e45"
+  integrity sha512-uDcxj627VKxT9nbrrGLnADMM5TJnXRNie0EEBjh4eKeR+9z1HEL3vRayqFULm2WuKZwQsOx8XyUTz4eYIwsnxg==
   dependencies:
     "@steelydylan/markdown-it-imsize" "^1.0.2"
     "@steelydylan/prism-diff-highlight" "1.0.4"
     "@types/prismjs" "^1.16.1"
-    katex "^0.12.0"
     markdown-it "^11.0.0"
     markdown-it-anchor "^5.3.0"
     markdown-it-container "^2.0.0"
