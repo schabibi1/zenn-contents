@@ -117,7 +117,8 @@ import React, { useState, useEffect } from 'react';
 function コンポーネント名() {
   useEffect(() => {
     // 初回のレンダー時に「一度だけ実行」される
-  }, []);
+    // & propかstateが変化した場合のみ、毎回のレンダー後実行される
+  }, [prop, state]);
 }
 ```
 
@@ -129,8 +130,7 @@ import React, { useState, useEffect } from 'react';
 function コンポーネント名() {
   useEffect(() => {
     // 初回のレンダー時に「一度だけ実行」される
-    // & propかstateが変化した場合のみ、毎回のレンダー後実行される
-  }, [prop, state]);
+  }, []);
 }
 ```
 
