@@ -15,6 +15,18 @@ free: true
 2. -ボタン: 1つずつ商品の個数が減算
 3. カート内商品の個数を表示: 加算、減算に連動した表示
 4. 合計金額の表示: 加算、減算に連動した表示
+5. スタイリングにはCSS in JSライブラリ、emotion.jsのStyled Componentsを使用
+6. `@emotion/react` `@emotion/styled` `@emotion/babel-plugin` を導入
+7. `.babelrc` のコンフィグファイル作成
+
+> [emotion.js公式ドキュメント](https://emotion.sh/docs/install)
+
+:::message
+それぞれのバージョンは以下です。
+`"@emotion/react": "^11.1.5"`
+`"@emotion/styled": "^11.1.5"`
+`"@emotion/babel-plugin": "^11.2.0"`
+:::
 
 ワイヤーフレーム（画面設計）は、以下に用意しています。
 

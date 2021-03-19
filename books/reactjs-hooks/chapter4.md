@@ -185,9 +185,7 @@ function App() {
     <div className="App">
 -      HEY👋
 +      <h1>Counter App 🧮</h1>
-+      <button>
-+        +
-+      </button>
++      <button>+</button>
 +      <h3>{count} times clicked!🖱</h3>
     </div>
   );
@@ -221,9 +219,7 @@ function App() {
   return (
     <div className="App">
       <h1>Counter App 🧮</h1>
-+      <button onClick={() => console.log('clicked!🖱')}>
-        +
-      </button>
++     <button onClick={() => console.log('clicked!🖱')}>+</button>
      <h3>{count} times clicked!🖱</h3>
     </div>
   );
@@ -250,9 +246,7 @@ function App() {
   return (
     <div className="App">
       <h1>Counter App 🧮</h1>
-+      <button onClick={() => setCount(count + 1)}>
-        +
-      </button>
++     <button onClick={() => setCount(count + 1)}>+</button>
       <h3>{count} times clicked!🖱</h3>
     </div>
   );
