@@ -28,9 +28,13 @@ free: true
 `"@emotion/babel-plugin": "^11.2.0"`
 :::
 
+:::message
+ロジックの分離、再利用は先のチャプターで学習します。React Hooksの基礎を学習するため、今回はApp.jsに全て記述します。
+:::
+
 ワイヤーフレーム（画面設計）は、以下に用意しています。
 
-![](https://storage.googleapis.com/zenn-user-upload/s6h1xigu0n9ybo1vb56ukgznyjbw)
+![](https://storage.googleapis.com/zenn-user-upload/kwgqw6ej2v0yse5scl0y16z6wh8w)
 
 遷移設計も、Adobe XDで作ってみましょう。
 

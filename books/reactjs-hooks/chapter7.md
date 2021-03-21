@@ -97,12 +97,17 @@ useEffect(callback, [dependencies]);
 
 主に3つのパターンがあるので、それぞれまずは構文を見ていきます。
 
+:::message
+ `useEffect` は、基本的にState Hookと一緒に使うことがほとんどです。
+:::
+
 #### パターン1
 
 ``` jsx
 import React, { useState, useEffect } from 'react';
 
 function コンポーネント名() {
+  // State Hook記述
   useEffect(() => {
     // 毎回のレンダーごとに実行される
   });
@@ -115,6 +120,7 @@ function コンポーネント名() {
 import React, { useState, useEffect } from 'react';
 
 function コンポーネント名() {
+  // State Hook記述
   useEffect(() => {
     // 初回のレンダー時に「一度だけ実行」される
     // & propかstateが変化した場合のみ、毎回のレンダー後実行される
@@ -128,6 +134,7 @@ function コンポーネント名() {
 import React, { useState, useEffect } from 'react';
 
 function コンポーネント名() {
+  // State Hook記述
   useEffect(() => {
     // 初回のレンダー時に「一度だけ実行」される
   }, []);
@@ -136,10 +143,14 @@ function コンポーネント名() {
 
 第1引数の `callback` は問題ないかと思うので、第2引数の `dependencies` について少し解説をします。
 
+この第2引数は、 **依存配列（dependencies array）** という名前がついています。
+
+依存配列（dependencies array）は、必要がなければ、上記のパターン1のように省略することも可能です。
+
  `useEffect` を使えるようになる前は、 `componentDidUpdate` を使って、以下のような処理をしていました。
 
 ```jsx
-componentDidUpdate(prevProps, orevState) {
+componentDidUpdate(prevProps, prevState) {
   if (prevState.count !== this.state.count) {
     document.title = `${this.state.count} times clicked!`;
   }
@@ -155,8 +166,10 @@ componentDidUpdate(prevProps, orevState) {
 これでも十分意図したことは実装できていますが、 `useEffect` の第2引数 `dependencies` を使用すると、もっと短く、可読性の高い記述が可能になります。
 
 ```jsx
+// State Hook記述
+
 useEffect(() => {
-  document.titlle = `${this.state.count} times clicked!`;
+  document.titlle = `${count} times clicked!`;
 }, [count]);
 ```
 
