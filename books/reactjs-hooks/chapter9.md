@@ -7,6 +7,10 @@ free: true
 
 先ほどのカウンターアプリで練習したことを元に、オンラインショップの注文画面を実装してみましょう。
 
+以下のLilac（ライレック）教材ソースコードのリストにあるスターターリポジトリ、[「React Hooks: 副作用フック、オンラインショップの注文画面練習問題2 スターター」](https://github.com/schabibi1/zenn-book-challenges/tree/main/effect-hook-store-starter)をforkして取り組んでください。
+
+> [スターターフォルダ](https://github.com/schabibi1/zenn-book-challenges)
+
 # 要件
 
 以下の要件をヒントに、機能設計、遷移設計を作り、アプリケーション実装に取り組みましょう。
@@ -31,6 +35,8 @@ free: true
 :::message
 ロジックの分離、再利用は先のチャプターで学習します。React Hooksの基礎を学習するため、今回はApp.jsに全て記述します。
 :::
+
+今回はスタイルをスターターで用意していますので、それを利用してください。
 
 ワイヤーフレーム（画面設計）は、以下に用意しています。
 
@@ -64,5 +70,3 @@ free: true
 遷移設計の完成見本は、こちらから見ることができます。
 
 > [Adobe XDで作成した遷移設計プロトタイプ](https://xd.adobe.com/view/9a17c8f2-e2a1-491a-5b29-20671cf0e70e-ec26/)
-
-https://dmitripavlutin.com/react-useeffect-explanation/
