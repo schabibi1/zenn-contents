@@ -230,7 +230,7 @@ function Animals(props) {
       // アンマウントされていなければstateを更新（🐱🐰stateのみ更新）
       if(!unmounted) {
         setResult(result);
-      };
+      }
     }
     fetchAnimals();
 
