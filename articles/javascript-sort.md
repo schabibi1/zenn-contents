@@ -36,7 +36,7 @@ MDNはとても信頼性の高いソースで、何か新しい技法を学習�
 
 まず、MDNの解説をざっと読んで、 `sort()` メソッドについて、人に説明できるのであれば、この記事は読まなくてもしっかり理解ができています。
 
-[MDN: Array.prototype.dort()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+[MDN: Array.prototype.sort()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 説明ができるまでではない、ということであれば、以下の解説を読み進めていきます。
 
