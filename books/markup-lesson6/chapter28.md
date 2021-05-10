@@ -1,5 +1,6 @@
 ---
 title: "練習問題"
+free: true
 ---
 
 # Pinterest風webページを、CSSグリッドに書き換えよう（所要時間の目安: 10分-20分）

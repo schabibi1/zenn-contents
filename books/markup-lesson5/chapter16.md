@@ -1,5 +1,6 @@
 ---
 title: "答え4"
+free: true
 ---
 
 :::message alert

@@ -1,5 +1,6 @@
 ---
 title: "構造とスキンの分離"
+free: true
 ---
 
 # オブジェクト指向CSS（OOCSS）のルール1: 構造とスキンの分離（Separate structure and skin）

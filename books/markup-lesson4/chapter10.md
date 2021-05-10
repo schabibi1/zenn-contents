@@ -1,5 +1,6 @@
 ---
 title: "justify-content"
+free: true
 ---
 
 # コンテナに使用するFlexboxのプロパティ

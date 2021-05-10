@@ -1,5 +1,6 @@
 ---
 title: "flex-flow"
+free: true
 ---
 
 # コンテナに使用するFlexboxのプロパティ

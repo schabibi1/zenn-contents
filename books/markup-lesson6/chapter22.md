@@ -1,5 +1,6 @@
 ---
 title: "align-content"
+free: true
 ---
 
 `align-content` の役割は、コンテナー用に用意された、CSSグリッドプロパティ一覧のチャプターで、簡単に確認をしましたね。

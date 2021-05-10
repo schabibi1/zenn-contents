@@ -1,5 +1,6 @@
 ---
 title: "grid-template-areas"
+free: true
 ---
 
 `grid-template-areas` の役割は、コンテナー用に用意された、CSSグリッドプロパティ一覧のチャプターで、簡単に確認をしましたね。

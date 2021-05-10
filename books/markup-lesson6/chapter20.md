@@ -1,5 +1,6 @@
 ---
 title: "gap, row-gap, column-gap"
+free: true
 ---
 
 `gap` の役割も、前のチャプターにある「溝/ガター(Gutters)」で、簡単に役割を確認しましたね。

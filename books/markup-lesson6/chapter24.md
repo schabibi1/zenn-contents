@@ -1,5 +1,6 @@
 ---
 title: "grid-row, grid-column"
+free: true
 ---
 
 `grid-row` と `grid-column` の役割については、実は、説明はありませんでしたが、プロパティが実装されている例とコード自体は、本書にも、既にいくつか出てきています。

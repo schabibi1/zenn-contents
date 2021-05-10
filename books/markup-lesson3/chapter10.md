@@ -1,5 +1,6 @@
 ---
 title: "box-sizing: border-box;"
+free: true
 ---
 
 # 要素の面積を思い通りに指定する: box-sizing: border-box;

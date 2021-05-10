@@ -1,5 +1,6 @@
 ---
 title: "grid-template-rows, grid-template-columns"
+free: true
 ---
 
 `grid-template-rows` と `grid-template-columns` の役割は、前半チャプターの「縦構造: グリッド列/Grid column」と「横構造: グリッド行/Grid row」で学習をしましたね。

@@ -1,5 +1,6 @@
 ---
 title: "display: grid;"
+free: true
 ---
 
  `display: grid;` は、前半チャプターの「グリッドコンテナー」の項目でも説明がありましたね。

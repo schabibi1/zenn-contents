@@ -1,5 +1,6 @@
 ---
 title: "練習問題"
+free: true
 ---
 
 # Pinterest風webページを作ろう（所要時間の目安: 30分-60分）

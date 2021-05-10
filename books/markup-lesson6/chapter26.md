@@ -1,5 +1,6 @@
 ---
 title: "justify-self"
+free: true
 ---
 
 `justify-self` の役割については、アイテム用に用意された、CSSグリッドプロパティ一覧のチャプターで、簡単に確認をしましたね。

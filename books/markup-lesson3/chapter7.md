@@ -1,5 +1,6 @@
 ---
 title: "練習問題2"
+free: true
 ---
 
 # z-indexとpositionの練習をしてみよう！（所要時間の目安: 15分〜20分）

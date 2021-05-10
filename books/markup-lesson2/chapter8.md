@@ -1,5 +1,6 @@
 ---
 title: "CSSの構文: CSSのコメントアウト"
+free: true
 ---
 
 # CSSのコメントアウト

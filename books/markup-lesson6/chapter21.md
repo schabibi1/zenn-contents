@@ -1,5 +1,6 @@
 ---
 title: "justify-content"
+free: true
 ---
 
 `justify-content` は、Flexboxにも存在したプロパティでしたね。

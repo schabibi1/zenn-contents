@@ -1,5 +1,6 @@
 ---
 title: "order"
+free: true
 ---
 
 # アイテムに使用できるFlexboxのプロパティ

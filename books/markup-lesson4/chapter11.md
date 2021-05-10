@@ -1,5 +1,6 @@
 ---
 title: "align-items"
+free: true
 ---
 
 # コンテナに使用するFlexboxのプロパティ

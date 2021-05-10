@@ -1,5 +1,6 @@
 ---
 title: "flex-wrap"
+free: true
 ---
 
 # コンテナに使用するFlexboxのプロパティ
