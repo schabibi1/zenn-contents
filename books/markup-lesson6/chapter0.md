@@ -7,15 +7,9 @@ free: true
 
 この本は、これから新しくプログラミング学習を始められる方に向けて、いずれは実践スキルを習得することを目標に、まずは最も優しい基本のCSSスキルを習得することを目的として、作成しています。
 
-この教材は、私が現在開発を手掛けていて、近日中にリリース予定の「オーダーメイド感覚プログラミング学習サービス | [Lilac(ライレック)](https://note.com/frontendlifeinde/m/m9b8feda1d547)」で提供をする教材の、先行販売版です。
-
-[Lilac(ライレック)](https://note.com/frontendlifeinde/m/m9b8feda1d547)では、以下の2つの方法から、それぞれお好きなプランでご利用いただくことのできる、学習方法のパーソナライズに特化した、オンラインプログラミング学習サービスです。
-
-1. **Textbook プラン:** 必要なトピックの教材のみの購入利用
-2. **Tutoring プラン:** 全教材アクセス権 + 個別メンターArisaによる学習サポート + 案件受注&納品やポートフォリオ作成などのサポート
+この教材は、私が運営をしている、テックスキル、知見、経験シェアの無料オンラインコミュニティ | [Lilac(ライレック)](https://note.com/frontendlifeinde/m/m9b8feda1d547)」の無料教材です。
 
 この本は、Markup Seriesのシリーズ第6段です。
-チャプター1から16は、無料でお読みいただけます。
 
 マークアップ言語シリーズ: Lesson 7以降の本や、そのほかのシリーズの本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
 
@@ -73,39 +67,40 @@ Arisa Fukuzaki
 ![profile_img](https://storage.googleapis.com/zenn-user-upload/u7ka3507985si7cc9s047g7rt4gx)
 
 - Twitter: [@arisa_dev](https://twitter.com/arisa_dev)
-- ブログ: [Aiki x Developer](https://aiki-developer.com)
+- ブログ: [Arisa Fukuzaki](https://arisa-fukuzaki.dev)
 - note: [https://note.com/frontendlifeinde](https://note.com/frontendlifeinde)
 - Podcast（毎週水曜日更新）: [アノニマスですけど何か](https://note.com/frontendlifeinde/m/m14ff18669c56)
 
 ### 職業
-- フリーランス フルスタックエンジニア
-- フロントエンド開発個人講師（マンツーマン学習サポートをご希望の方は[こちら](https://aiki-developer.com/contact)まで）
-- Lilac 運営&開発中
+- StoryblokのDeveloper Relations Engineer
+- テックスキル、知見、経験シェア無料オンラインコミュニティ、Lilac運営者
 
 ### 得意分野
 - JavaScript
 - React.js
 - Gatsby.js
-- React Native
+- Next.js
 
 ### 経歴
-ドイツに2017年から移住したフリーランスのフルスタックエンジニア。
-新卒でエミレーツ航空で客室乗務員として勤め、在籍中に独学でプログラミングを学習し、2017年よりエンジニアとして活動を始める。
+ドイツに2017年から移住。
+新卒でエミレーツ航空で客室乗務員として勤め、在籍中に独学でプログラミングを学習し、2017年よりフロントエンドエンジニアとして活動を始める。
 
-フロントエンドから入り、web開発、webアプリケーション開発、モバイルアプリ開発を行っている。
+web開発、webアプリケーション開発行う。
 
-2018年より、現在も個人でフロントエンド開発をマンツーマンで教える講師活動をしている。
-40人以上マンツーマンで教え、国内企業就職者、海外企業就職者、フリーランスのエンジニアを輩出した実績あり。
+2018年-2021年5月まで、個人でフロントエンド開発をマンツーマンで教える講師活動をしていた。
+45人以上マンツーマンで教え、国内企業就職者、海外企業就職者、フリーランスのエンジニアを輩出した実績あり。
 
-講師の活動の傍ら、テキスト教材販売と、マンツーマンプログラミング学習サポート提供のLilac(ライレック)を開発中。
+2021年6月より、オーストリア発祥のHeadless CMSで唯一visual editor搭載のStoryblokで、Developer Relations Engineerをしている。
+登壇やStoryblok内のコミュニティ活動、ハンズオン公式ドキュメントなどの貢献を通し、エンジニアとビジネスマーケター全ての人がコンテンツを管理しやすくなる基盤構築が目標。
+
+DevRelの仕事の傍、Front-End Foxes SchoolのAfrica Cohortでメンターをしたり、オンラインコミュニティLilac（ライレック）の運営、イベント企画をしたり、Podcast、テック記事執筆をしている。
+
+[Gatsby.js](https://www.gatsbyjs.com/)公式オンラインイベント、[GatsbyConf 2021](https://gatsbyconf.com/)で登壇経験あり。
 
 - [GatsbyConf 2021: 登壇内容](https://gatsbyconf.com/event/finding-my-developer-happy-path-with-gatsby-x-contentful/)
 - [Gatsby.js: 登壇前インタビュー記事](https://www.gatsbyjs.com/blog/gatsbyconf-qa-arisa-fukuzaki/)
 - [登壇動画（日本語字幕版）](https://youtu.be/Xtrqm4zZGQY)
-- [登壇動画（Gatsby.js公式YouTube、英語字幕版）](https://www.youtube.com/watch?v=dzJqVf6qFFg&list=PLCU2qJekvcN3DuWHUhdF4fhLpg2RyXDBB&index=12)
 
 https://youtu.be/Xtrqm4zZGQY
-
-https://www.youtube.com/watch?v=dzJqVf6qFFg&list=PLCU2qJekvcN3DuWHUhdF4fhLpg2RyXDBB&index=12
 
 新しい技術のキャッチアップと合気道、スノボ、旅行が好き。
