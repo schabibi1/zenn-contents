@@ -2,7 +2,7 @@ title: "Vue.jsシリーズ: Vue Composition API"
 summary: "Vueの基本を終えた人向けのVue Composition APIの基本、導入、応用をまとめました。実践的なVueを習得したい人向けの教材です。"
 topics: ["vue", "frontend"]
 published: false
-price: 2000 # 有料の場合200〜5000
+price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
   - chapter0

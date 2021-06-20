@@ -1,5 +1,5 @@
 ---
-title: "副作用: computed, watch, watchEffect"
+title: "Watcher: computed, watch, watchEffect"
 free: true
 ---
 

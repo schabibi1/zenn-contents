@@ -1,5 +1,5 @@
 ---
-title: "副作用フックの簡易的な使い方"
+title: "Watcherの簡易的な使い方"
 free: true
 ---
 
