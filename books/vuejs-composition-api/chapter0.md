@@ -7,12 +7,12 @@ free: true
 
 この本は、これから新しくVue Composition APIの学習を始められる方に向けて、実践レベルのVueを習得することを目標に、React Hooksの基本から導入、応用までを習得することを目的として、作成しています。
 
-この教材は、私が運営をしている、テックスキル、知見、経験シェアの無料オンラインコミュニティ | [Lilac(ライレック)](https://note.com/frontendlifeinde/m/m9b8feda1d547)」の無料教材です。
+この教材はテックスキル、知見、経験シェアの無料オンラインコミュニティ | [Lilac(ライレック)](https://note.com/frontendlifeinde/m/m9b8feda1d547)」の無料教材です。
 
 この本は、VueシリーズのVue Composition API編です。
 本書の前半半分のチャプターは、無料でお読みいただけます。
 
-マークアップ言語シリーズの本や、そのほかのシリーズの本は、私の[Zennプロフィール](https://zenn.dev/arisa_dev)よりご覧いただけます。
+マークアップ言語シリーズの本や、そのほかのシリーズの本は、[こちら](https://zenn.dev/arisa_dev)よりご覧いただけます。
 
 # 本書の特徴
 
@@ -41,15 +41,17 @@ Visual Studio Codeの導入方法は、こちらの[「マークアップ言語�
 
 - 本書のテキスト内、ソースコード
 
-以下のリンクより、ダウンロードすることができます。
+// TODO: 以下最後に置き換え
 
-「Code」という緑のボタンをクリックすると、「Download zip」という選択肢があり、ダウンロードできます。
+~~以下のリンクより、ダウンロードすることができます。~~
+
+~~「Code」という緑のボタンをクリックすると、「Download zip」という選択肢があり、ダウンロードできます。~~
 
 ![github-download-zip](https://storage.googleapis.com/zenn-user-upload/ka8fydr34z9opq7lh7ismgsacnaf)
 
-該当チャプターに、該当のソースコードが入っているフォルダ名の指定があります。
+~~該当チャプターに、該当のソースコードが入っているフォルダ名の指定があります。~~
 
-実際に皆さんの環境でも、手を動かしながら反映を見る必要があるものを、このソースコードフォルダ内にまとめています。
+~~実際に皆さんの環境でも、手を動かしながら反映を見る必要があるものを、このソースコードフォルダ内にまとめています。~~
 
 > [本書のテキスト内ソースコード](https://github.com/schabibi1/zenn-book-challenges)
 
@@ -65,4 +67,40 @@ Visual Studio Codeの導入方法は、こちらの[「マークアップ言語�
 
 Mikihiro Saito
 
-// TODO: プロフィールの作成
+![profile_img](https://lh3.googleusercontent.com/a-/AOh14GhSwePIlBZTw0_8xl4WAXVJ4dBFMN6tQuc4r60Vhw=s96-c)
+
+- Twitter: [@bohol_engineer](https://twitter.com/bohol_engineer)
+- Github: [@mikinovation](https://github.com/mikinovation)
+
+### 職業
+- Web Front Developer
+
+### 得意分野
+- JavaScript(Typescript)
+- React
+- Angular
+- Vue
+
+### 経歴
+フィリピンのセブ島、ボホール島在住エンジニア
+2017年大学2年の時代にプログラミングを勉強し始め、エンジニアとして現在4年目
+2社のインターンを経て、フリーランスとしては3年目
+
+web開発、デスクトップアプリケーション開発を業務委託で受託開発を行っている
+
+今まで作ってきたものは
+
+- 電子カルテ
+- BtoBの部品や資材の発注システム
+- BtoCの人材紹介システム
+- BtoBの人材育成システム
+- リモートワーク支援のデスクトップアプリケーション開発
+
+等のプロジェクトに携わる
+
+### 趣味
+
+- ゲーム
+- 自然の中でぶらぶら
+
+家の庭にはバナナやマンゴーが生えていたり、歩いて5分で海やマングローブが生えているような自然豊かな場所に住んでいる
