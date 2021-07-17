@@ -82,7 +82,7 @@ Vue CLI v4.5.13
 yarn serve
 ```
 
-![](https://storage.googleapis.com/zenn-user-upload/hrv6cfic6t3zmq454v3tbyhlibd5)
+![](https://storage.googleapis.com/zenn-user-upload/5ca349a8e54c0386e3031050.png)
 
 上記の画面が表示され、立ち上がったら、プロジェクトディレクトリの `src/App.vue` ファイルを開きます。
 
@@ -139,93 +139,70 @@ export default {
 }
 </script>
 
-- <style>
-- #app {
--   font-family: Avenir, Helvetica, Arial, sans-serif;
--   -webkit-font-smoothing: antialiased;
--   -moz-osx-font-smoothing: grayscale;
--   text-align: center;
--   color: #2c3e50;
--   margin-top: 60px;
-- }
-- </style>
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
 ```
 
 仮に入れた「HEY👋」という文字列がアウトプットされていることが確認できるかと思います。
 
-![hey](https://storage.googleapis.com/zenn-user-upload/7yd5miy51eoul2ydupejgcsl6mt1)
+![](https://storage.googleapis.com/zenn-user-upload/b98ddeab1c319ac4e55ac151.png)
 
-# State Hookの読み込み
+# Composition APIの読み込み
 
-では、State Hookを使用するために、 `useState` をインポートしましょう。
+では、Composition APIでリアクティブなStateを扱うために、 `ref` をインポートしましょう
 
-```diff jsx:src/App.js
-+ import React, { useState } from 'react';
-import './App.css';
+そしてrefを使ってcountというstateを用意します
 
-function App() {
-  return (
-    <div className="App">
-      HEY👋
-    </div>
-  );
+カウントを0から始めたいので、refの引数には、0を格納します。
+
+またstateをテンプレートから読み込みたいので、テンプレート上で扱うstateに関してはsetupで値を返すようにします
+
+```diff vue:src/App.vue
+<script>
++ import { ref } from 'vue'
+
+export default {
+  name: 'App',
++  setup() {
++   const count = ref(0)
++
++    return {
++      count
++    }
++  }
 }
-
-export default App;
+</script>
 ```
 
-Hookを使い、stateを用意します。
-
-カウントを0から始めたいので、useStateの引数には、0を格納します。
-
-```diff jsx:src/App.js
-import React, { useState } from 'react';
-import './App.css';
-
-function App() {
-+  const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
-      HEY👋
-    </div>
-  );
-}
-
-export default App;
-```
-
-クリックイベントによって、数値の加算を1ずつ行いたいので、ボタン要素をJSX内に用意します。
+クリックイベントによって、数値の加算を1ずつ行いたいので、ボタン要素をtemplate内に用意します。
 
 クリックイベントの結果、要するに1ずつ加算された結果をブラウザに表示したいので、文字列で出力させる記述も書き加えます。
 
-```diff jsx:src/App.js
-import React, { useState } from 'react';
-import './App.css';
-
-function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
--      HEY👋
-+      <h1>Counter App 🧮</h1>
-+      <button>+</button>
-+      <h3>{count} times clicked!🖱</h3>
-    </div>
-  );
-}
-
-export default App;
+```diff vue:src/App.vue
+<template>
+  <div className="app">
++    <h1>Counter App 🧮</h1>
++    <button>+</button>
++    <h3>{{count}} times clicked!🖱</h3>
+  </div>
+</template>
 ```
 
 この時点でブラウザの反映を確認してみると、stateのcount初期値0が、既に返り値として返されていることが確認できます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/vzx3bi16k3vdbf3hx4gzzvlr5faz)
 
-# クリックイベントとState Hookを紐付ける
+# クリックイベントによってstateを変更する
 
-今の状態だと、ボタン要素をクリックしてもクリックイベントの反応がないので、イベントとState Hookの紐付けを行います。
+今の状態だと、ボタン要素をクリックしてもクリックイベントの反応がないので、イベントによってstateが変更されるようにします
 
 まずは、クリックイベント発生時に、イベントがトリガーされているかどうかの検証を行います。
 
@@ -234,50 +211,73 @@ export default App;
 構造がシンプルなうちにイベントがトリガーされているかを検証すると、構造が複雑化する前に、イベントトリガーにエラーの原因が潜んでいないことが断言できます。要因を絞り込みやすくするコツです。
 :::
 
-```diff jsx:src/App.js
-import React, { useState } from 'react';
-import './App.css';
+```diff vue:src/App.vue
+<template>
+  <div className="app">
+    <h1>Counter App 🧮</h1>
+-     <button>+</button>
++    <button @click='increment'>+</button>
+    <h3>{{count}} times clicked!🖱</h3>
+  </div>
+</template>
 
-function App() {
-  const [count, setCount] = useState(0);
+<script>
+import { ref } from 'vue'
 
-  return (
-    <div className="App">
-      <h1>Counter App 🧮</h1>
-+     <button onClick={() => console.log('clicked!🖱')}>+</button>
-     <h3>{count} times clicked!🖱</h3>
-    </div>
-  );
+export default {
+  name: 'App',
+  setup() {
+    const count = ref(0)
+
++   const increment = () => {
++     console.log('fired!')
++   }
+
+    return {
+      count,
++     increment
+    }
+  }
 }
-
-export default App;
+</script>
 ```
 
-![](https://storage.googleapis.com/zenn-user-upload/b5b6ozgy600r9nyy8fi4dttqhszn)
+![](https://storage.googleapis.com/zenn-user-upload/24274c75c1446c2aaec57ba5.png)
 
-ブラウザdev toolのコンソールに、クリックした回数だけイベントが発生して、「clicked!🖱」の文字列が出力されていることが確認できますね。
+ブラウザdev toolのコンソールに、クリックした回数だけイベントが発生して、「fired!」の文字列が出力されていることが確認できますね。
 
 では、1ずつstateのcountに、加算をしていく記述をしていきたいと思います。
 
-チャプター4のState Hookの基本構文を確認しながら書いていきましょう。
+チャプター4のrefの基本構文を確認しながら書いていきましょう。
 
-```diff jsx:src/App.js
-import React, { useState } from 'react';
-import './App.css';
+```diff vue:src/App.vue
+<template>
+  <div className="app">
+    <h1>Counter App 🧮</h1>
+    <button @click='increment'>+</button>
+    <h3>{{count}} times clicked!🖱</h3>
+  </div>
+</template>
 
-function App() {
-  const [count, setCount] = useState(0);
+<script>
+import { ref } from 'vue'
 
-  return (
-    <div className="App">
-      <h1>Counter App 🧮</h1>
-+     <button onClick={() => setCount(count + 1)}>+</button>
-      <h3>{count} times clicked!🖱</h3>
-    </div>
-  );
+export default {
+  name: 'App',
+  setup() {
+    const count = ref(0)
+
+    const increment = () => {
+      count.value++ // 「count.value = count.value + 1」と同意
+    }
+
+    return {
+      count,
+      increment
+    }
+  }
 }
-
-export default App;
+</script>
 ```
 
 ![](https://storage.googleapis.com/zenn-user-upload/rrsveqqxo9m8pp3p2m5400pss6d1)
